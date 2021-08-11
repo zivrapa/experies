@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Calculator</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+      
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys" id="keys">
+          <button class="operator"  data-key="plus" data-type="operator">+</button>
+          <button id="minus" class="operator"  data-key="minus" data-type="operator">-</button>
+          <button class="operator" data-key="times" data-type="operator">x</button>
+          <button class="operator" data-key="divide" data-type="operator">÷</button>
+          <button class="number" data-key="1" data-type="number"value="1">1</button>
+          <button class="number" data-key="2" data-type="number"value="2">2</button>
+          <button class="number" data-key="3" data-type="number"value="3">3</button>
+          <button class="number" data-key="4" data-type="number"value="4">4</button>
+          <button class="number" data-key="5" data-type="number"value="5">5</button>
+          <button class="number" data-key="6" data-type="number"value="6">6</button>
+          <button class="number" data-key="7" data-type="number"value="7">7</button>
+          <button class="number" data-key="8" data-type="number"value="8">8</button>
+          <button class="number" data-key="9" data-type="number" value="9">9</button>
+          <button class="number" data-key="0" data-type="number" value="0">0</button>
+          <button id="decimal" data-key="." class="number" class="decimal"  data-type="number" value=".">.</button>
+          <button id="clear" data-key="clear" class="clear" data-type="clear">C</button>
+          <button id="equals" data-key="equal" data-type="equal">=</button>
+          <button class="number" data-key="-" data-type="number" value="-">+/-</button>
+          <button class="number" data-key="sin" data-type="number" id="sin" value="Math.sin(">sin</button>
+          <button class="number" data-key="cos" data-type="number" id="cos" value="Math.cos(">cos</button>
+          <button class="number" data-key="tan" data-type="number" id="tan" value="Math.tan(">tan</button>
+          <button class="number" data-key=")" data-type="number" id=")" value=")">)</button>
+          <button class="operator" data-type="operator" data-key="mode" id="mode" value="mode">reg/Sic</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
