@@ -1,0 +1,169 @@
+body {
+  background-color: darkturquoise;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+#mamels {
+  background-color: fuchsia;
+  margin-right: 20px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
+#whale {
+  border: gold 5px solid;
+}
+#monkey {
+  margin-top: 10px;
+  border: gold 5px solid;
+}
+#reptails {
+  background-color: indigo;
+}
+#green-mamba {
+  border: gold 5px solid;
+}
+#croc {
+  border: gold 5px solid;
+  margin-top: 10px;
+}
+#amphibia {
+  background-color: lawngreen;
+  margin-left: 20px;
+}
+#frog #salamandra #duck {
+  border:  5px solid deeppink !important;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: inline-block;
+  
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background-color: #3e8e41;
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.addBtn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 10px;
+  margin-left: -10px;
+
+}
+.addBtn:hover {background-color: #3e8e41}
+
+.addBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 768px) {
+  #mamels {
+    margin-right: 0px;
+  }
+  #amphibia {
+    margin-left: 0px;
+  }
+}
+.newAnimalForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newAnimalForm > p {
+  display: flex;
+  justify-content: center;
+}
+.newAnimalForm > form {
+  display: flex;
+  justify-content: center;
+  
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myBtn {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  transition-duration: 0.4s;
+  font-size: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+#myBtn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
